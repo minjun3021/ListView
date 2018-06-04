@@ -36,6 +36,7 @@ public class ListviewAdapter extends BaseAdapter {
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
         if(convertView==null){
+            //yy
             LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
             convertView=inflater.inflate(layout,parent,false);
         }
